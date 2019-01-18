@@ -18,14 +18,14 @@ This 'integration' allows you to select a group from a list and copy it includin
 # How it works
 There are two processes:
 
-**Populate Group Property** is used to initially build the Group list.  Run this process first.
+**Populate Group Property** is used to initially build the Group list.  Run this process first. **NB. This manages up to 100 groups but could be modified for more**
 
 **Copy Group** is then used as required to create a copy of an existing group
 
-1. select a group to copy from a list of groups <img src="media/SelectGroup.png">
-2. enter a new name for the group <img src="media/NewGroupName.png">
+1. select a group to copy from a list of groups <img src="media/SelectGroup.png" width="300" height="300">
+2. enter a new name for the group <img src="media/NewGroupName.png" width="300" height="50">
 3. optionally enter a description for the new group (if none its provided it uses the description of the template group)
-4. send message to create the new group <img src="media/SendMessage.png">
+4. send message to create the new group <img src="media/SendMessage.png" width="100" height="100">
 5. monitor the resulting event <img src="media/NewEvent.png">
 6. the event will terminate when the new group has been created. Any errors are added as comments to the event <img src="media/CheckForErrors.png">
 7. if there are no errors the new group is automatically added to the group list
@@ -44,7 +44,7 @@ It is not necessary to target recipients in either of the forms but you can if y
 
 **Very** basic email message templates have been defined for each form.
 
-NB. 'Populate Group Properties' process needs to ran once to populate the group list.  It only needs to ran again if groups have subsequently been created manually.
+NB. 'Populate Group Properties' process needs to be ran once to populate the group list.  It only needs to run again if new groups have been created manually.
 
 # Testing
 Run **Populate Group Property** process.  Once complete check the Group property in 'Copy Groups' form is populated with your Groups.
