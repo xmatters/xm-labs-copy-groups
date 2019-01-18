@@ -6,16 +6,14 @@ You may have complex Groups populated with on-call members that support specific
 This 'integration' allows you to select a group from a list and copy it including shifts, rotas, members, devices and escalations.
 
 <kbd>
-  <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+  <img src="media/CopyGroupForm.png">
 </kbd>
 
 # Pre-Requisites
 * xMatters account - If you don't have one, [get one](https://www.xmatters.com)!
 
 # Files
-* [ExampleCommPlan.zip](ExampleCommPlan.zip) - This is an example comm plan to help get started. (If it doesn't make sense to have a full communication plan, then you can just use a couple javascript files like the one below.)
-* [EmailMessageTemplate.html](EmailMessageTemplate.html) - This is an example HTML template for emails and push messages.
-* [FileA.js](FileA.js) - An example javascript file to be pasted into a Shared Library in the Integration builder. Note the comments
+* [CopyGroups.zip](CopyGroups.zip) - This is the communication plan containing all required functionality. (Two forms, two outbound integrations, two shared libraries and one constant)
 
 # How it works
 There are two processes:
@@ -33,7 +31,7 @@ There are two processes:
 Thereafter you can make any small changes you need on the new group :)
 
 # Installation
-1. Import the **CopyGroup.zip** communication plan
+1. Import the **CopyGroups.zip** communication plan
 2. Configure relevant 'Sender Permissions' on each form
 3. Copy the 'Property Identifier' (UUID) of the 'Group' Property
 4. Paste the Group property identifier into the 'Group Property UUIDs' Constants value
