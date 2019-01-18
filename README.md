@@ -22,10 +22,10 @@ There are two processes:
 
 **Copy Group** is then used as required to create a copy of an existing group
 
-1. select a group to copy from a list of groups <img src="media/SelectGroup.png" width="300" height="300">
-2. enter a new name for the group <img src="media/NewGroupName.png" width="300" height="50">
+1. select a group to copy from a list of groups <img src="media/SelectGroup.png">
+2. enter a new name for the group <img src="media/NewGroupName.png">
 3. optionally enter a description for the new group (if none its provided it uses the description of the template group)
-4. send message to create the new group <img src="media/SendMessage.png" width="100" height="100">
+4. send message to create the new group <img src="media/SendMessage.png">
 5. monitor the resulting event <img src="media/NewEvent.png">
 6. the event will terminate when the new group has been created. Any errors are added as comments to the event <img src="media/CheckForErrors.png">
 7. if there are no errors the new group is automatically added to the group list
