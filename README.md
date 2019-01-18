@@ -1,6 +1,9 @@
-# Copy Groups
+# Copy an xMatters Group
 This is a process to copy an xMatters group.
-[here](media/mysweetvideo.mov). Be sure to indicate what type of integration or enhancement you're building! (One-way or closed-loop integration? Script library? Feature update? Enhancement to an existing integration?)
+1 - select a group to copy form a list
+2 - enter a new name for the Group
+3 - optionally enter a description for the new Group
+4 - send message to create the new Group
 
 <kbd>
   <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
