@@ -17,30 +17,34 @@ This 'integration' allows you to select a group from a list and copy it includin
 
 # How it works
 There are two processes:
+
 **Populate Group Property** is used to initially build the Group list.  Run this process first.
 
 **Copy Group** is then used as required to create a copy of an existing group
 
-1. select a group to copy from a list of groups
-2. enter a new name for the group
+1. select a group to copy from a list of groups <img src="media/SelectGroup.png">
+2. enter a new name for the group <img src="media/NewGroupName.png">
 3. optionally enter a description for the new group (if none its provided it uses the description of the template group)
-4. send message to create the new group
-5. monitor the resulting event.  The event will terminate when the new group has been created.  
-6. any errors are added as comments to the event
+4. send message to create the new group <img src="media/SendMessage.png">
+5. monitor the resulting event <img src="media/NewEvent.png">
+6. the event will terminate when the new group has been created. Any errors are added as comments to the event <img src="media/CheckForErrors.png">
 7. if there are no errors the new group is automatically added to the group list
 
-Thereafter you can make any small changes you need on the new group :)
+Thereafter you can make any small changes you need on the new group :) <img src="media/NewGroup.png">
 
 # Installation
 1. Import the **CopyGroups.zip** communication plan
-2. Configure relevant 'Sender Permissions' on each form
-3. Copy the 'Property Identifier' (UUID) of the 'Group' Property
-4. Paste the Group property identifier into the 'Group Property UUIDs' Constants value
 
 ## xMatters set up
-It is not necessary to target recipients in either of the forms but you can if you wish.  **Very** basic email message templates have been defined for each form.
+1. Configure relevant 'Sender Permissions' on each form
+2. Copy the 'Property Identifier' (UUID) of the 'Group' Property
+3. Paste the Group property identifier into the 'Group Property UUIDs' Constants value
 
-'Populate Group Properties' process needs to ran once to populate the group list.  It only needs to ran again if groups have subsequently been created manually.
+It is not necessary to target recipients in either of the forms but you can if you wish.  
+
+**Very** basic email message templates have been defined for each form.
+
+NB. 'Populate Group Properties' process needs to ran once to populate the group list.  It only needs to ran again if groups have subsequently been created manually.
 
 # Testing
 Run **Populate Group Property** process.  Once complete check the Group property in 'Copy Groups' form is populated with your Groups.
