@@ -9,11 +9,19 @@ This 'integration' allows you to select a group from a list and copy it includin
   <img src="media/CopyGroupForm.png">
 </kbd>
 
+
+<kbd>
+<a href="https://support.xmatters.com/hc/en-us/community/topics">
+   <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+</a>
+</kbd>
+
+
 # Pre-Requisites
 * xMatters account - If you don't have one, [get one](https://www.xmatters.com)!
 
 # Files
-* [CopyGroups.zip](CopyGroups.zip) - This is the communication plan containing all required functionality. (Two forms, two outbound integrations, two shared libraries and one constant)
+* [CopyGroups.zip](CopyGroups.zip) - This is the workflow containing all required functionality. (Two forms, two outbound integrations, two shared libraries and one constant)
 
 # How it works
 There are two processes:
@@ -33,7 +41,7 @@ There are two processes:
 Thereafter you can make any small changes you need on the new group :) <img src="media/NewGroup.png">
 
 # Installation
-1. Import the **CopyGroups.zip** communication plan
+1. Import the **CopyGroups.zip** workflow
 
 ## xMatters set up
 1. Configure relevant 'Sender Permissions' on each form
